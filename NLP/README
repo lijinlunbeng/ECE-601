@@ -1,3 +1,7 @@
 This project introduces a natural language API application. 
 The purpose here is not to explain the Python client library, but to explain how to invoke the natural language API.
 In simple terms, the programmer enters the sentence he wants to enter, and the computer evaluates the sentence against the code as positive or nagative.
+I entered the phrase "I am very handsome" into this project. 
+According to the result, " I am" and "very" show negative, and "handsome" shows postive.
+But the whole sentence is postive.
+In additional, I tried to copy Wiki sentence and it shows neutral. 
