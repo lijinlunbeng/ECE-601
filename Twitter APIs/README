@@ -1,1 +1,8 @@
+When I use a PC or laptop, it's the API that moves data between programs.
+And the Twitter API saves a lot of time. 
+I used Tweepy to grab the data in this project. 
+In the captured project data, we can grab any Twitter user's data at will. 
+In my results, I just grabbed the Twitter data of a Korean actress, from which I could observe a lot of information, such as her various hobbies.
+In general, this saves us programmers the ability to crawl data directly through third-party apis.
 
+Citation:Tweepy. “Tweepy/Tweepy.” GitHub, github.com/tweepy/tweepy. 
