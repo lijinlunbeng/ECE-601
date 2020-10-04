@@ -63,3 +63,32 @@ def get_all_tweets(screen_name):
 if __name__ == '__main__':
     #pass in the username of the account you want to download
     get_all_tweets("@KAlLEAVESM")
+
+    from google.cloud import language
+from google.cloud.language import enums, types
+
+
+def analyze_text_entities(text):
+    client = language.LanguageServiceClient()
+    document = types.Document(
+        content=text,
+        type=enums.Document.Type.PLAIN_TEXT)
+
+    response = client.analyze_entities(document=document)
+
+    for entity in response.entities:
+        print('=' * 79)
+        results = [
+            ('name', entity.name),
+            ('type', enums.Entity.Type(entity.type).name),
+            ('salience', entity.salience),
+            ('wikipedia_url', entity.metadata.get('wikipedia_url', '-')),
+            ('mid', entity.metadata.get('mid', '-')),
+        ]
+        for k, v in results:
+            print('{:15}: {}'.format(k, v))
+            
+            
+// test my text        
+text = 'This whole thread is such a mood. I always feel happy when stanning thai star cause their fandom r so chill and fun. But now it's gradually becoming toxic, even more than kpop or cpop. Especialy those unnecessary fanwars and bashing every girl near their bias'
+analyze_text_entities(text)
