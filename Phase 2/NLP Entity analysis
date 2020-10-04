@@ -24,7 +24,7 @@ def analyze_text_entities(text):
             
             
 // test my text        
-text = 'Guido van Rossum is great, and so is Python!'
+text = 'This whole thread is such a mood. I always feel happy when stanning thai star cause their fandom r so chill and fun. But now it's gradually becoming toxic, even more than kpop or cpop. Especialy those unnecessary fanwars and bashing every girl near their bias'
 analyze_text_entities(text)
 
 //results
