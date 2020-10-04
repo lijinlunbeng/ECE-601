@@ -117,3 +117,28 @@ text = 'This whole thread is such a mood. I always feel happy when stanning thai
 analyze_text_sentiment(text)
 
 
+
+from google.cloud import language
+from google.cloud.language import enums, types
+
+
+def analyze_text_syntax(text):
+    client = language.LanguageServiceClient()
+    document = types.Document(
+        content=text,
+        type=enums.Document.Type.PLAIN_TEXT)
+
+    response = client.analyze_syntax(document=document)
+
+    fmts = '{:10}: {}'
+    print(fmts.format('sentences', len(response.sentences)))
+    print(fmts.format('tokens', len(response.tokens)))
+    for token in response.tokens:
+        part_of_speech_tag = enums.PartOfSpeech.Tag(token.part_of_speech.tag)
+        print(fmts.format(part_of_speech_tag.name, token.text.content))
+
+
+//Test my content
+text = 'This whole thread is such a mood. I always feel happy when stanning thai star cause their fandom r so chill and fun. But now its 
+gradually becoming toxic, even more than kpop or cpop. Especialy those unnecessary fanwars and bashing every girl near their bias'
+analyze_text_syntax(text)
