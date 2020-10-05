@@ -30,7 +30,7 @@ MOTOR1B=18  #Left Motor
 MOTOR1E=22
 
 MOTOR2B=21  #Right Motor
-MOTOR2E=19
+MOTOR2E=19 
 
 LED_PIN=13  #If it finds the ball, then it will light up the led
 
