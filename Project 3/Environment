@@ -1,0 +1,12 @@
+The first and most complex step is to provide an environment in which we can use this experiment accurately.
+
+1. As a first step, I downloaded anaconda because it's a great way to convert python from one version to another, especially for this task.
+By the way, anaconda is a vitual environment for a python complier. This was a project last year, and a lot of things couldn't implement our project because of the newer format. I really recommand we could use python 3.6 or 3.7 version.
+If you were use python 3.8 or above this verision, some packages, like tensorflow, you have to downgrade or unstall it. Although there are some complex issues, I still used python 3.8. 
+
+2. Download a software named Unity. Unity is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005 at Apple Inc.'s Worldwide Developers Conference as a Mac OS X-exclusive game engine.
+Hence, we used this platfrom to build a game environment we want.
+
+3. Donload our important mlagents packages. This package includes some game agents to achieve our goal.
+
+4. I picked up a agents named 3D ball. 
