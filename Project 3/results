@@ -1,0 +1,45 @@
+###I use the test files program to test our agents, and get his learnings' results.
+
+
+2020-10-16 12:54:03 INFO [stats.py:118] 3DBall. Step: 12000. Time Elapsed: 29.277 s. Mean Reward: 1.183. Std of Reward: 0.732. Training.
+2020-10-16 12:54:19 INFO [stats.py:118] 3DBall. Step: 24000. Time Elapsed: 45.629 s. Mean Reward: 1.305. Std of Reward: 0.797. Training.
+2020-10-16 12:54:36 INFO [stats.py:118] 3DBall. Step: 36000. Time Elapsed: 61.686 s. Mean Reward: 1.687. Std of Reward: 1.042. Training.
+2020-10-16 12:54:51 INFO [stats.py:118] 3DBall. Step: 48000. Time Elapsed: 77.320 s. Mean Reward: 2.385. Std of Reward: 1.616. Training.
+2020-10-16 12:55:07 INFO [stats.py:118] 3DBall. Step: 60000. Time Elapsed: 92.970 s. Mean Reward: 3.969. Std of Reward: 3.118. Training.
+2020-10-16 12:55:22 INFO [stats.py:118] 3DBall. Step: 72000. Time Elapsed: 108.577 s. Mean Reward: 8.011. Std of Reward: 6.693. Training.
+2020-10-16 12:55:40 INFO [stats.py:118] 3DBall. Step: 84000. Time Elapsed: 125.709 s. Mean Reward: 13.844. Std of Reward: 12.752. Training.
+2020-10-16 12:55:55 INFO [stats.py:118] 3DBall. Step: 96000. Time Elapsed: 141.032 s. Mean Reward: 45.508. Std of Reward: 31.880. Training.
+2020-10-16 12:56:10 INFO [stats.py:118] 3DBall. Step: 108000. Time Elapsed: 155.941 s. Mean Reward: 54.157. Std of Reward: 38.118. Training.
+2020-10-16 12:56:26 INFO [stats.py:118] 3DBall. Step: 120000. Time Elapsed: 172.356 s. Mean Reward: 63.784. Std of Reward: 40.970. Training.
+2020-10-16 12:56:41 INFO [stats.py:118] 3DBall. Step: 132000. Time Elapsed: 186.942 s. Mean Reward: 90.969. Std of Reward: 23.295. Training.
+2020-10-16 12:56:55 INFO [stats.py:118] 3DBall. Step: 144000. Time Elapsed: 201.073 s. Mean Reward: 76.863. Std of Reward: 34.147. Training.
+2020-10-16 12:57:10 INFO [stats.py:118] 3DBall. Step: 156000. Time Elapsed: 216.000 s. Mean Reward: 96.250. Std of Reward: 10.102. Training.
+2020-10-16 12:57:25 INFO [stats.py:118] 3DBall. Step: 168000. Time Elapsed: 230.863 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 12:57:40 INFO [stats.py:118] 3DBall. Step: 180000. Time Elapsed: 245.919 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 12:57:55 INFO [stats.py:118] 3DBall. Step: 192000. Time Elapsed: 260.861 s. Mean Reward: 97.038. Std of Reward: 10.259. Training.
+2020-10-16 12:58:10 INFO [stats.py:118] 3DBall. Step: 204000. Time Elapsed: 275.775 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 12:58:24 INFO [stats.py:118] 3DBall. Step: 216000. Time Elapsed: 290.603 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 12:58:40 INFO [stats.py:118] 3DBall. Step: 228000. Time Elapsed: 305.858 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 12:58:55 INFO [stats.py:118] 3DBall. Step: 240000. Time Elapsed: 321.313 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 12:59:15 INFO [stats.py:118] 3DBall. Step: 252000. Time Elapsed: 341.401 s. Mean Reward: 94.092. Std of Reward: 20.465. Training.
+2020-10-16 12:59:31 INFO [stats.py:118] 3DBall. Step: 264000. Time Elapsed: 356.732 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 12:59:46 INFO [stats.py:118] 3DBall. Step: 276000. Time Elapsed: 372.398 s. Mean Reward: 94.600. Std of Reward: 17.910. Training.
+2020-10-16 13:00:02 INFO [stats.py:118] 3DBall. Step: 288000. Time Elapsed: 388.279 s. Mean Reward: 92.523. Std of Reward: 25.901. Training.
+2020-10-16 13:00:17 INFO [stats.py:118] 3DBall. Step: 300000. Time Elapsed: 403.457 s. Mean Reward: 89.369. Std of Reward: 27.420. Training.
+2020-10-16 13:00:33 INFO [stats.py:118] 3DBall. Step: 312000. Time Elapsed: 418.682 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 13:00:48 INFO [stats.py:118] 3DBall. Step: 324000. Time Elapsed: 434.432 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 13:01:04 INFO [stats.py:118] 3DBall. Step: 336000. Time Elapsed: 449.995 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 13:01:20 INFO [stats.py:118] 3DBall. Step: 348000. Time Elapsed: 466.268 s. Mean Reward: 84.673. Std of Reward: 33.616. Training.
+2020-10-16 13:01:35 INFO [stats.py:118] 3DBall. Step: 360000. Time Elapsed: 481.176 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 13:01:50 INFO [stats.py:118] 3DBall. Step: 372000. Time Elapsed: 496.444 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 13:02:06 INFO [stats.py:118] 3DBall. Step: 384000. Time Elapsed: 511.702 s. Mean Reward: 92.423. Std of Reward: 26.247. Training.
+2020-10-16 13:02:21 INFO [stats.py:118] 3DBall. Step: 396000. Time Elapsed: 527.062 s. Mean Reward: 93.038. Std of Reward: 24.115. Training.
+2020-10-16 13:02:37 INFO [stats.py:118] 3DBall. Step: 408000. Time Elapsed: 542.890 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 13:03:06 INFO [stats.py:118] 3DBall. Step: 420000. Time Elapsed: 572.539 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 13:03:21 INFO [stats.py:118] 3DBall. Step: 432000. Time Elapsed: 586.854 s. Mean Reward: 94.400. Std of Reward: 18.573. Training.
+2020-10-16 13:03:36 INFO [stats.py:118] 3DBall. Step: 444000. Time Elapsed: 601.818 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 13:03:51 INFO [stats.py:118] 3DBall. Step: 456000. Time Elapsed: 616.703 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 13:04:05 INFO [stats.py:118] 3DBall. Step: 468000. Time Elapsed: 631.535 s. Mean Reward: 97.585. Std of Reward: 8.367. Training.
+2020-10-16 13:04:20 INFO [stats.py:118] 3DBall. Step: 480000. Time Elapsed: 646.402 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 13:04:34 INFO [stats.py:118] 3DBall. Step: 492000. Time Elapsed: 660.206 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+2020-10-16 13:04:44 INFO [model_serialization.py:205] List of nodes to export for behavior :3DBall
