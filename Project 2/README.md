@@ -29,3 +29,7 @@ People who have Twitter accounts
 
 ### 4.What are the basic user stories?
 As for user stories, I hope that every customer who likes KPOP music can quickly find their favorite KPOP idol, or get to know more fans through this product. The product gives fans a quick way to get to know each other, as well as a chance to get to know each other's users on Twitter.
+
+## Final script and results
+
+[GitHub](https://github.com/lijinlunbeng/ECE-601/tree/master/Project%202/Final%20integration%20Phase%202)
