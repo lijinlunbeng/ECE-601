@@ -12,7 +12,7 @@ I use an example to explain what I did for this project. A homework (phase 2) in
 ## Introduction:
 I designed this one to capture data from certain users on Twitter. What are my specific users? 
 
-Young people who like KPOP music. A quick introduction to the product is to use Tweepy (which is a twitter API) to track if a user writes a keyword about any KPOP music. Then I will use natural language product (NLP) to understand each twitter message of this person in a more comprehensive way, and summarize each Twitter message to conclude whether this person is a fan group of KPOP.
+Young people who like KPOP music. A quick introduction to the product is to use Tweepy (which is a twitter API) to track if a user writes a keyword about any KPOP music. Then I will use natural language product (NLP) to analyze each twitter message of this person in a more comprehensive way, and summarize each Twitter message to conclude whether this person is a fan group of KPOP.
 
 ### 1. Define MVP and user stories
 
