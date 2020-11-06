@@ -10,7 +10,7 @@ def fecth_random_tweets(consumer_key, consumer_secret, access_token, access_toke
     api = tw.API(auth, wait_on_rate_limit=True)
 
     # Define the search term and the date_since date as variables
-    search_words = "#wildfires"
+    search_words = "#kpop"
     date_since = "2018-11-16"
 
     # Collect tweets
