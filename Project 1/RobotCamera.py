@@ -83,7 +83,7 @@ def sonar(GPIO_TRIGGER,GPIO_ECHO):
       # That was the distance there and back so halve the value
       distance = distance / 2
      
-      print "Distance : %.1f" % distance
+      print (Distance : %.1f) % distance
       # Reset GPIO settings
       return distance
 
