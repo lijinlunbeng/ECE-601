@@ -25,10 +25,10 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Set Environment Vars Then Test with pytest
         env:
-          consumer_key = "yOn8TiBcEIO6jQGHDoaVXQOy0"
-          consumer_secret = "jgJU47p5tKTzkLFt9fXhNrGpW4KPfioq0fDi8to1vgjiuZ3eQT"
-          access_key = "1309951984741412864-Bwa61zLFSTYizyW03plTkG7nxfxSsT"
-          access_secret = "HVF3588kI4IHvmFSG31VkXMD0y3eYdXOojtnHmTWKOmmF"
+          CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
+          CONSUMER_SECRET:  ${{ secrets.CONSUMER_SECRET }} 
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }} "
 
         run: |
           pip install pytest
