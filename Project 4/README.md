@@ -6,7 +6,7 @@ Aim:
 
 Trying to figure out the tests of my project 2.
 
-[Project 2 README]()
+[Project 2 README](https://github.com/lijinlunbeng/ECE-601/blob/master/Project%202/README.md)
 
 [Project 2 Actions'](https://github.com/lijinlunbeng/Project-2-Actions/actions)
 
